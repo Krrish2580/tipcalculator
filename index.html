@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h3>Tip Calculator</h3>
+    <div class="modal-box">
+        <label for="bill-amount" class="name">Bill Amount</label></br>
+        <input type="number" placeholder="Bill Amount..." id="bill-amount"></br>
+        <label for="tip-percentage" class="name">Tip Percentage</label></br>
+        <input type="number" placeholder="Tip Percentage" id="tip-percentage"></br>
+        <label for="tip-amount" class="name">Tip Amount</label></br>
+        <input type="number" placeholder="?????" id="tip-amount"></br>
+        <label for="total-billed" class="name">Total Billed</label></br>
+        <input type="number" placeholder="?????" id="total-billed"></br>
+        <button id="btn" onclick="calcTipAmount();">Calculate</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
